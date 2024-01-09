@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+/* Styling the Nav bar */
+header {
+    background-color: #295378;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky; */
+    top: 0;
+}
+#logoline {
+    display: flex;
+    align-items: center;
+}
+#logoline img {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px; /* Adjust the margin value as needed */
+    border-radius: 170px;
+}
+nav {
+    display: flex;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.2s;
+    font-size: 24px; /* Adjust the font size as needed */
+}
+nav a:hover {
+    color: #ccc;
+}
+/* Additional styling for the active navigation link */
+nav a.active {
+    color: #ccc;
+}
+/* Styling the services page */
+.serviceName {
+    background-color: #1c3851;
+    text-align: center;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(247, 247, 247);
+}
+.service > p {
+    text-align: center;
+    padding: 2%;
+}
+.product-image {
+    /*width: 200px;
+    height: 200px;*/
+    margin-right: 15px; /* Adjust the margin value as needed */
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+/* To make the book now look like a link */
+summary {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+/* Style the footer */
+footer {
+    background-color: #1c3851;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.about-section, .hours {
+    margin-bottom: 20px;
+}
+.about-section h2, .hours h2 {
+    font-size: 20px;
+}
+.copyright {
+    font-size: 14px;
+}
+/* Drop Down for Services*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+form{
+    background-color: #e8e8e8;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    gap: 10px;
+    display: block;
+}
+button[type="submit"]{
+    background-color:#295378;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+button[type="submit"]:hover{
+    background-color:#1c3851;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
